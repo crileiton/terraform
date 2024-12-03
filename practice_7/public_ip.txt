@@ -11,3 +11,6 @@ instancia destruida
 54.84.76.221
 instancia destruida
 54.242.203.15
+instancia destruida
+34.202.164.140
+instancia destruida

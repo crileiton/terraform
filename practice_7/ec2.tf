@@ -11,7 +11,7 @@ resource "aws_instance" "public_instance" {
   vpc_security_group_ids = [aws_security_group.sg_public_instance.id]
 
   provisioner "local-exec" {
-    command = "echo ${aws_instance.public_instance.public_ip} >> public_ip.txt"
+    command = "echo ${aws_instance.public_instance.public_ip} >> /noexiste/public_ip.txt"
   }
 
   provisioner "local-exec" {
