@@ -22,3 +22,8 @@ variable "tags" {
   description = "Tags for the resources"
   type        = map(string)
 }
+
+variable "sg_ingress_cidr" {
+  description = "CIDR block for the ingress rule"
+  type        = string
+}
