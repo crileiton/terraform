@@ -37,3 +37,8 @@ variable "ec2_specs" {
   description = "Parameters of instance"
   type        = map(string)
 }
+
+variable "enable_monitoring" {
+  description = "Enable monitoring for the instance"
+  type        = number
+}
