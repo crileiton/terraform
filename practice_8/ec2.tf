@@ -1,7 +1,7 @@
 variable "instances" {
   description = "name of instance"
   type        = list(string)
-  default     = ["apache", "jumpserver", "mysql"]
+  default     = ["apache"]
 }
 
 resource "aws_instance" "public_instance" {

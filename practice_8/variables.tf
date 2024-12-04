@@ -42,3 +42,8 @@ variable "enable_monitoring" {
   description = "Enable monitoring for the instance"
   type        = number
 }
+
+variable "ingress_list_ports" {
+  description = "Lista de puertos de ingress"
+  type        = list(number)
+}
